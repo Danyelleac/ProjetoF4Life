@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home| F4Life</title>
+    <link href="css/reset.css" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/cabecalho.css" rel="stylesheet">
+    <link href="css/quemSomos.css" rel="stylesheet">
+    <link href="css/feitaParaVoce.css" rel="stylesheet">
+    <link href="css/localizacao.css" rel="stylesheet">
+    <link href="css/acomodacoes.css" rel="stylesheet">
+    <link href="css/faleConosco.css" rel="stylesheet">
+    <link href="css/rodape.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <header class="cabecalho container">
+        <img src="img/logo.png"  alt="logo da F4Life" class="cabecalhoLogo">
+        <nav class="cabecalhoNavegacao">
+            <ul>
+                <li class="cabecalhoLink"><a href="#quemSomos">Quem Somos</a></li>
+                <li class="cabecalhoLink"><a href="#feitaParaVoce">Feita Para Você</a></li>
+                <li class="cabecalhoLink"><a href="#acomodacoes">Acomodações</a></li>
+                <li class="cabecalhoLink"><a href="#localizacoes">Localizações</a></li>
+                <li class="cabecalhoLink"><a href="#faleConosco">Fale Conosco</a></li>
+                <li class="cabecalhoLink"><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="quemSomos" class="container">
+            <h1 class="quemSomosTitulo">Quem somos</h1>
+                <p class="quemSomosParagrafo"> Mais que uma empresa, somos um estilo de vida para você pessoa universitária.
+                    Somos uma imobiliária especializada em studios e apartamentos compartilhados e individuais para universitários na cidade de São Paulo
+                </p>
+                <a href="#acomodacoes" class="quemSomosBotao botao">Veja nossas Acomodações</a>
+        </section>
+        <section id="feitaParaVoce" class="container">
+            <h2 class="feitaParaVoceTitulo">Feita Para Você</h2>
+            <div class = "feitaParaVoceConteudos">
+                <p class="feitaParaVoceTexto">  Nossas republicas trazem toda uma infraestrutura , para que você estudante tenha a melhor esperiencia em sua graduação.<br>
+                Desde quartos mobiliados e com área para estudo , a áreas comuns com acádemia ,sala de estudos,coworking e sala de jogos.
+                </p>
+                <img src="img/feitaParaVoce.png" alt="áreas comuns da republica" class="feitaParaVoceImagem">
+            </div>
+        </section>
+      
+        <section id="acomodacoes" class="container">
+            <h2 class="acomodacoesTitulo">Acomodações</h2>
+            <ul class="acomodacoesTipos">
+                <li class="tipos tipoStudiosIndividual">
+                    <img src="img/studio_individual.PNG">
+                    <h3 class="tiposTitulo">Studio Individual</h3>
+                    <article class="tiposConteudo">
+                        <p class="tiposPreco"><em>R$ 2500</em></p>
+                        <p class="tiposTexto">(por pessoa) até 1 pessoa</p>
+                        <a href="#faleConosco" class="tiposBotao botao">Alugar</a>
+                    </article>
+                </li>
+                <li class="tipos tipoStudiosCompartilhado">
+                    <img src="img/studio_compartilhado.PNG">
+                    <h3 class="tiposTitulo">Studio Compartilhado</h3>
+                    <article class="tiposConteudo">
+                        <p class="tiposPreco"><em>R$ 1500</em></p>
+                        <p class="tiposTexto"> (por pessoa) até 2 pessoas</p>
+                        <a href="#faleConosco" class="tiposBotao botao">Alugar</a>
+                    </article>
+                </li>
+                <li class="tipos tipoQuartoCompartilhado">
+                    <img src="img/apto_compartilhado.PNG">
+                    <h3 class="tiposTitulo">Apto. Compartilhado</h3>
+                    <article class="tiposConteudo">
+                        <p class="tiposPreco"><em>R$ 1500</em></p>
+                        <p class="tiposTexto">(por pessoa)  até 3 pessoas</p>
+                        <a href="#faleConosco" class="tiposBotao botao">Alugar</a>
+                    </article>
+                </li>
+            </ul>
+        </section>  
+        <section id="localizacoes" class="container">
+            <h2 class="localizacaoTitulo">Localizações</h2>
+            <ul class="localizacaoTexto">
+                <li>Sua republica F4Life na <a href="https://goo.gl/maps/5Wvv1YBafxCmDseu7"target="_blank"> Av.Paulista</a></li>
+                <li>Sua republica F4Life na <a href="https://goo.gl/maps/EK55LpRStETwi41cA"target="_blank">Mooca</a></li>
+                <li>Sua republica F4Life na <a href="https://goo.gl/maps/RDrEwXLFoxKPAEzK7"target="_blank">Av. Brigadeiro Luís Antonio</a></li>
+            </ul>
+        </section>  
+        <section id="faleConosco" class="container">
+            <h2 class="faleConoscoTitulo">Fale Conosco</h2>    
+                <form name="formulario">
+                
+                    <label for="nome">Nome e Sobrenome</label>
+                    <input type="text" id="nome" name="nome" class="input-padrao" placeholder="Digite seu nome e sobrenone" > 
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" class="input-padrao" required placeholder="seuemail@exemplo.com">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" class="input-padrao"  placeholder="(XX)XXXXX-XXXX">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="70" rows="10" id="mensagem" name="mensagem" class="input-padrao" required></textarea>
+                    
+                    <fieldset>
+                        <legend>Como prefere nosso contato?</legend>
+                        <label for="radioEmail"><input type="radio" value="email" id="radioEmail" name="contato">E-mail</label>
+                        <label for="radioTelefone"><input type="radio" value="Telefone" id="radioTelefone"name="contato">Telefone</label>
+                        <label for="radioWhatsapp"><input type="radio" value="whatsapp" id="radioWhatsapp"name="contato" checked>Whatsapp</label> 
+                    </fieldset>
+
+                    <label id="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por E-mail</label>
+
+                    <button type="button" class="enviar" onclick="validar()">
+                        Enviar
+                    </button>
+
+                </form>
+        </section>
+
+    </main>
+    <footer id="contatos" class="rodape container">
+        <img src="img/logo.png" alt="logo da F4Life" class="rodapeLogo">
+        <nav>
+         <ul class="rodapeNavegacao">
+             <li class="rodapeLink"><a href="#quemSomos">Quem Somos</a></li>
+             <li class="rodapeLink"><a href="#feitaParaVoce">Feita Para Você</a></li>
+             <li class="rodapeLink"><a href="#localizacoes">Localizações</a></li>
+             <li class="rodapeLink"><a href="#acomodacoes">Acomodações</a></li>
+             <li class="rodapeLink"><a href="#faleConosco">Fale Conosco</a></li>
+             <li class="rodapeLink"><a href="#contatos">Contatos</a></li>
+         </ul>
+     </nav>
+         <ul class="rodapeSocial">
+             <li><a href="https://www.facebook.com/" target="_blank" class="rodapeMidia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+             <li><a href="https://twitter.com/" target="_blank" class="rodapeMidia"><img src="img/twitter.png" alt="Ícone do twitter"></a></li>
+             <li><a href="https://www.instagram.com/" target="_blank" class="rodapeMidia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></li>
+ 
+         </ul>
+ 
+         <div class="rodapeContato">
+             <p>&copy; Copyright F4Life-2022</p>
+             <br>
+             <p>Contato: (011)2222-2222</p>
+             <p>Matriz: Av.Brasil,5789</p>
+         </div>
+ 
+     </footer>
+
+    <script src="main.js"> </script>
+    
+</body>
+</html>

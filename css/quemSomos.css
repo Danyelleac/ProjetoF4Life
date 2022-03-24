@@ -1,0 +1,50 @@
+#quemSomos  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cinza-escuro);
+    text-align: center;
+    background-color: var(--cinza-claro);
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+    
+   
+}
+
+.quemSomosTitulo {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    padding-top: 7.25rem;
+}
+
+.quemSomosParagrafo {
+    font-size: 1.35rem;
+    line-height:1.8rem;
+    text-align: center;
+    margin: 0 auto 2.5rem;
+
+}
+
+.quemSomosBotao {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .quemSomosParagrafo {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #quemSomos{
+
+        padding-top: 8.25rem;
+    }
+
+    .quemSomosTitulo {
+        margin-bottom: 2rem;
+    }
+}

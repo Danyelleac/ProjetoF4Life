@@ -1,0 +1,43 @@
+:root {
+    --branco: #FFF;
+    --azul-medio: #2F5382;/*azulclaro*/
+    --azul-claro: #4A84CF;/*vermelho e font link*/
+    --cinza-escuro: #34404F;/*fonte cinza*/
+    --cinza-claro: #F7F4F4;
+    --cinza-medio: #566982;
+    --borda-cabecalho-mobile: #132235;/*bg rodape e bg chamada mobile*/
+    --planos: #6ddad3;/*planos -cartao-star ultra etc*/
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.botao {
+    text-align: center;
+
+    display: block;
+
+    width: 100%;
+    max-width: 350px;
+
+    box-sizing: border-box;
+
+    padding: 1rem 2rem;
+
+    border: 1px solid var(--cinza-escuro);
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
